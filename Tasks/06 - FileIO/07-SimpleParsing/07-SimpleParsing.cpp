@@ -41,6 +41,8 @@ int main()
     cout << "Subject Area is " << subjectArea << endl;
 
     int code;
+    inputStream >> code;
+    cout << "new module code will be" << subjectArea << code + 1 << endl;
 
     //TO DO: 
     // Now find the module ID number
